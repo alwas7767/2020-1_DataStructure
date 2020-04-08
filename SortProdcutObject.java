@@ -1,4 +1,4 @@
-package gu;
+package gugudan;
 import java.util.Arrays;
 
 public class SortProdcutObject {
