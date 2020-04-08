@@ -1,16 +1,15 @@
-//201735793ÀÌ¾îÁø_leap.java
 import java.util.Scanner;
 public class leap {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
-		System.out.println("³âµµ¸¦ ÀÔ·ÂÇÏ¼¼¿ä. : ");
+		System.out.println("ë…„ë„ë¥¼ ì…ë ¥í•˜ì„¸ìš”. : ");
 		int y =input.nextInt();
 		if(y % 4 == 0 && y % 100!=0 || y % 400 == 0) { 
-			System.out.println(y + "³âÀº À±³â");
+			System.out.println(y + "ë…„ì€ ìœ¤ë…„");
 		}
 		else {
-			System.out.println(y + "³âÀº Æò³â");
+			System.out.println(y + "ë…„ì€ í‰ë…„");
 		} 
 		}
 	}
