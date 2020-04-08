@@ -1,11 +1,10 @@
-//201735793ÀÌ¾îÁø_gugu.java
 import java.util.*;
-public class Jaryo {
+public class gugu {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int a;
 	Scanner input = new Scanner(System.in);
-	System.out.print("¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä. : ");
+	System.out.print("ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš”. : ");
 	int x = input.nextInt();
 		for(a = 1; a<=9; a++) {
 			System.out.println(x + " * " + a + " = "+ x * a );		
