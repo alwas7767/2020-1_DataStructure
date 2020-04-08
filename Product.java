@@ -1,4 +1,4 @@
-package gu;
+package gugudan;
 public class Product implements Comparable<Product>{
 
 	private String productName;
